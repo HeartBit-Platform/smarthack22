@@ -35,30 +35,30 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Filtre cautare
 
-Localitate:
-	Dropdown Menu
+Localitate:  
+	Dropdown Menu  
 
-Raza cautare:
-	- 5 km
-	- 10 km
-	- 25 km
-	- 50 km
+Raza cautare:  
+	- 5 km  
+	- 10 km  
+	- 25 km  
+	- 50 km  
 
-Serviciu cautat:
-	- Service
-	- Spalatorie
-	- Polish
-	- Schimbare piese
-	- Tinichigerie
-	- Soft tuning
-	- Bodykit
-	- Sistem de evacuare
-	- Dezmembrari
-	- Service motociclete
-	- Colantare
-	- Folii geamuri
-	- Retapitare
-	- Detailing
-	- Vopsit
-	- Vulcanizare
-	- Diagnoza
+Serviciu cautat:  
+	- Service  
+	- Spalatorie  
+	- Polish  
+	- Schimbare piese  
+	- Tinichigerie  
+	- Soft tuning  
+	- Bodykit  
+	- Sistem de evacuare  
+	- Dezmembrari  
+	- Service motociclete  
+	- Colantare  
+	- Folii geamuri  
+	- Retapitare  
+	- Detailing  
+	- Vopsit  
+	- Vulcanizare  
+	- Diagnoza  

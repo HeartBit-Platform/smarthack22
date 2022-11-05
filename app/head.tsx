@@ -1,9 +1,13 @@
+
 export default function Head(){
     return(
         <>
             <title>
-                Mecano
+                MecaniX
             </title>
+        
+           
+           
         </>
     )
 }

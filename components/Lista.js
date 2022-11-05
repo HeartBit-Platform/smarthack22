@@ -19,8 +19,16 @@ function Lista() {
       setSuggestions(suggestions);
     }, []);
    return(
-   <div>
-     <div className="flex-col p-6 bg-white border-blue-300 border rounded-sm  ">
+   
+     <div className="flex-col bg-white border-baby-blue border rounded-sm max-h-[40rem] max-w-[21rem] overflow-y-scroll">
+    <Pagina key={faker.datatype.uuid()} avatar={faker.image.avatar()} username={faker.internet.userName()}  />
+    <Pagina key={faker.datatype.uuid()} avatar={faker.image.avatar()} username={faker.internet.userName()}  />
+    <Pagina key={faker.datatype.uuid()} avatar={faker.image.avatar()} username={faker.internet.userName()}  />
+    <Pagina key={faker.datatype.uuid()} avatar={faker.image.avatar()} username={faker.internet.userName()}  />
+    <Pagina key={faker.datatype.uuid()} avatar={faker.image.avatar()} username={faker.internet.userName()}  />
+    <Pagina key={faker.datatype.uuid()} avatar={faker.image.avatar()} username={faker.internet.userName()}  />
+    <Pagina key={faker.datatype.uuid()} avatar={faker.image.avatar()} username={faker.internet.userName()}  />
+    <Pagina key={faker.datatype.uuid()} avatar={faker.image.avatar()} username={faker.internet.userName()}  />
     <Pagina key={faker.datatype.uuid()} avatar={faker.image.avatar()} username={faker.internet.userName()}  />
     <Pagina key={faker.datatype.uuid()} avatar={faker.image.avatar()} username={faker.internet.userName()}  />
     <Pagina key={faker.datatype.uuid()} avatar={faker.image.avatar()} username={faker.internet.userName()}  />
@@ -30,7 +38,7 @@ function Lista() {
     <Pagina key={faker.datatype.uuid()} avatar={faker.image.avatar()} username={faker.internet.userName()}  />
     <Pagina key={faker.datatype.uuid()} avatar={faker.image.avatar()} username={faker.internet.userName()}  />
     </div>
-   </div>
+   
    
    )
 

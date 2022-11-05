@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 export default function HomePage(){
     return ( 
 <<<<<<< HEAD
@@ -12,3 +13,9 @@ export default function HomePage(){
         </div>
     )
 }
+=======
+import Headerr from '../components/Headerr.js';
+export default function HomePage() {
+    return <></>;
+}
+>>>>>>> 4c767b95644a3369c35a959e6fa71127f90a5e82

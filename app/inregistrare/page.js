@@ -1,29 +1,97 @@
 export default function inregistrare(){
-return ( 
-        <div className="columns-1 w-2/3 m-auto">
-            <p className=""></p>
-            <form className="bg-red-500 p-5 m-5" action="/send-data-here" method="post">
+return (
+        <div className="bg-white"> 
+            <div className="columns-1 w-2/3 bg-white m-auto">
+                <form class="w-full max-w-lg m-auto p-10">
 
-                <label className="w-full" for="nume-firma">Nume Firma:</label>
-                <input className="shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" type="text" id="nume-firma" name="nume-firma" />
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+                        Persoană Contact
+                    </label>
+                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Boby Betonieră">
+                    </input>
+                    </div>
+                    <div class="w-full md:w-1/2 px-3">
+                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+                        Denumire SRL
+                    </label>
+                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe">
+                    </input>
+                    </div>
+                </div>
 
-                <label className="w-full" for="cui">Cod Identificare Fiscala:</label>
-                <input className="w-full" type="text" id="cui" name="cui" />
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+                        Persoană Contact
+                    </label>
+                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane">
+                    </input>
+                    </div>
+                    <div class="w-full md:w-1/2 px-3">
+                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+                        Denumire SRL
+                    </label>
+                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe">
+                    </input>
+                    </div>
+                </div>
 
-                <label className="w-full" for="adresa">Adresa:</label>
-                <input className="w-full" type="text" id="adresa" name="adresa" />
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+                        Persoană Contact
+                    </label>
+                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane">
+                    </input>
+                    </div>
+                    <div class="w-full md:w-1/2 px-3">
+                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+                        Denumire SRL
+                    </label>
+                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe">
+                    </input>
+                    </div>
+                </div>
 
-                <label className="w-full" for="cui">Cod Identificare Fiscala:</label>
-                <input className="w-full" type="text" id="cui" name="cui" />
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+                        Persoană Contact
+                    </label>
+                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane">
+                    </input>
+                    </div>
+                    <div class="w-full md:w-1/2 px-3">
+                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+                        Denumire SRL
+                    </label>
+                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe">
+                    </input>
+                    </div>
+                </div>
 
-                <label className="w-full" for="cui">Cod Identificare Fiscala:</label>
-                <input className="w-full" type="text" id="cui" name="cui" />
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+                        Persoană Contact
+                    </label>
+                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Jane">
+                    </input>
+                    </div>
+                    <div class="w-full md:w-1/2 px-3">
+                    <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+                        Denumire SRL
+                    </label>
+                    <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Doe">
+                    </input>
+                    </div>
+                </div>
 
-
-
-                <button className="w-full" type="inregistrare">Inregistrare</button>
-            </form>
-
+                </form>
+            </div>
         </div>
+    
     )
 }

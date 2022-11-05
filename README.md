@@ -32,3 +32,33 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Filtre cautare
+
+Localitate:  
+	Dropdown Menu  
+
+Raza cautare:  
+	- 5 km  
+	- 10 km  
+	- 25 km  
+	- 50 km  
+
+Serviciu cautat:  
+	- Service  
+	- Spalatorie  
+	- Polish  
+	- Schimbare piese  
+	- Tinichigerie  
+	- Soft tuning  
+	- Bodykit  
+	- Sistem de evacuare  
+	- Dezmembrari  
+	- Service motociclete  
+	- Colantare  
+	- Folii geamuri  
+	- Retapitare  
+	- Detailing  
+	- Vopsit  
+	- Vulcanizare  
+	- Diagnoza  

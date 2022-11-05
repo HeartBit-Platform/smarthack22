@@ -1,3 +1,5 @@
+import '../styles/globals.css'
+import Headerr from "../components/Headerr"
 export default function RootLayout({
   children,
 }: {
@@ -6,7 +8,9 @@ export default function RootLayout({
   return (
     <html>
       <head></head>
-      <body>{children}</body>
+      <body>
+        <Headerr />
+          {children}</body>
     </html>
   )
 }

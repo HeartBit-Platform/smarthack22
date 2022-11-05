@@ -1,6 +1,8 @@
 import '../styles/globals.css';
 import Headerr from '../components/Headerr';
 import Footer from '../components/Footer';
+import Pagina from '../components/Pagina';
+import Lista from '../components/Lista';
 
 export default function RootLayout({
     children,
@@ -11,8 +13,10 @@ export default function RootLayout({
         <html>
             <head></head>
             <body>
+            
                 <Headerr />
                 {children}
+               
             </body>
             <Footer />
         </html>

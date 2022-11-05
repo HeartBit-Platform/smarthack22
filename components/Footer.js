@@ -2,14 +2,13 @@ import Link from 'next/link';
 
 function Footer() {
     return (
-
-        <div className="flex items-center justify-center py-10 bg-[#000000]">
+        <div className="flex items-center justify-center py-10 bg-[#000000] font-josefin">
             <div>
                 <div className="flex justify-center mb-2">
                     <p className="text-[#929CA9]">
                         Find an issue with this page?{' '}
                         <a
-                            href="https://github.com/Cipppp/pirvuciprian/issues"
+                            href="https://github.com/HeartBit-Platform/smarthack22/issues"
                             target="_blank"
                         >
                             <span className="text-[#6C63FF]">
@@ -153,7 +152,10 @@ function Footer() {
                         />
                     </svg>
 
-                    <a href="http://github.com/Cipppp" target="_blank">
+                    <a
+                        href="https://github.com/HeartBit-Platform/"
+                        target="_blank"
+                    >
                         <svg
                             width="25"
                             height="25"
@@ -169,7 +171,7 @@ function Footer() {
                         </svg>
                     </a>
 
-                    <a href="https://twitter.com/Cip41388806" target="_blank">
+                    <a href="https://twitter.com/" target="_blank">
                         <svg
                             width="25"
                             height="25"

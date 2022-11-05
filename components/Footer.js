@@ -2,7 +2,8 @@ import Link from 'next/link';
 
 function Footer() {
     return (
-        <div className="flex items-center justify-center py-10 bg-white">
+
+        <div className="flex items-center justify-center py-10 bg-[#000000]">
             <div>
                 <div className="flex justify-center mb-2">
                     <p className="text-[#929CA9]">

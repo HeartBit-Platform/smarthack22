@@ -46,7 +46,7 @@ function Cards() {
                     </Link>
 
                     {/* Card  2*/}
-                    <Link href="/business" className="cursor-pointer">
+                    <Link href="/inregistrare" className="cursor-pointer">
                         <div className="m-2 card cursor-pointer shadow-card shadow-2xl w-[24rem] h-[24rem] py-6 grid grid-rows-3 justify-center items-center card-transition">
                             <div className="skill row-span-2 p-10 grid grid-rows-2 place-items-center">
                                 <WrenchScrewdriverIcon />

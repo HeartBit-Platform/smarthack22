@@ -1,3 +1,4 @@
+import Link from "next/link"
 export default function inregistrare(){
 return (
         <div className="bg-white"> 
@@ -237,13 +238,13 @@ return (
                     </input>
                     <label for="link-checkbox" class="py-5 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Sunt de acord cu <a href="#" class="text-blue-600 dark:text-blue-500 hover:underline">termenii și condițiile</a>.</label>
                 </div>
-
-                <div class="flex items-center justify-between">
-                    <button class="my-5 m-auto bg-baby-blue hover:bg-angry-baby-blue text-black font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
-                    Mergi mai departe
-                    </button>
-                </div>
-
+                <Link href="/garaj/builder" className="cursor-pointer">
+                    <div class="flex items-center justify-between">
+                        <button class="my-5 m-auto bg-baby-blue hover:bg-angry-baby-blue text-black font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                        Mergi mai departe
+                        </button>
+                    </div>
+                </Link>
 
 
                 </form>

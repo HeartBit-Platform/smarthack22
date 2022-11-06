@@ -6,13 +6,13 @@ function Footer() {
             <div>
                 <div className="flex justify-center mb-2">
                     <p className="text-[#929CA9]">
-                        Find an issue with this page?{' '}
+                        Ai gasit o problemă la această pagină?{' '}
                         <a
                             href="https://github.com/HeartBit-Platform/smarthack22/issues"
                             target="_blank"
                         >
                             <span className="text-[#6C63FF]">
-                                Fix it on GitHub
+                                Rezolv-o pe GitHub
                             </span>
                         </a>
                     </p>
@@ -22,7 +22,7 @@ function Footer() {
                 </div>
                 <div className="flex justify-center mt-2">
                     <p className="text-[#929CA9]">
-                        Copyright &copy; 2022 MecaniX
+                        Copyright &copy; 2022 MecanX
                     </p>
                 </div>
                 <div className="flex justify-center mb-2">
@@ -104,7 +104,7 @@ function Footer() {
                                 />
                             </svg>
                         </span>{' '}
-                        by <span className="text-[#6C63FF] mx-1">MecaniX</span>
+                        by <span className="text-[#6C63FF] mx-1">MecanX</span>
                     </p>
                 </div>
                 <div className="flex items-center justify-center">
@@ -113,10 +113,10 @@ function Footer() {
                 <div className="flex justify-center my-2">
                     <p className="text-[#0ACF83]">
                         <Link href="/privacy-policy" className="cursor-pointer">
-                            Privacy
+                            Termeni si
                         </Link>{' '}
                         <Link href="/terms" className="cursor-pointer">
-                            Terms
+                            Conditii
                         </Link>
                     </p>
                 </div>

@@ -41,7 +41,7 @@ function Header() {
                             class="peer h-full w-full outline-none text-sm text-gray-700 pr-2 bg-white font-josefin"
                             type="text"
                             id="search"
-                            placeholder="Search something.."
+                            placeholder="Caută.."
                         />
                     </div>
                 </div>

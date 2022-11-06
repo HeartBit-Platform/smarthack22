@@ -80,6 +80,8 @@ function Lista() {
                     </div>
                 </div>
             </div>
+            </div>
     );
 }
-export default Lista;
+
+export default List;

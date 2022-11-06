@@ -11,10 +11,10 @@ export default function Home() {
                 <div className="grid grid-cols-2 p-20 place-items-center">
                     <div>
                         <h1 className="font-mono font-extrabold  text-5xl">
-                            MecaniX
+                            MecanX
                         </h1>
                         <p className="pt-[5%]">
-                            Bine ai venit! MecaniX este platforma unde poți să
+                            Bine ai venit! MecanX este platforma unde poți să
                             îți creezi un site de prezentare pentru service-ul
                             tău auto.
                         </p>

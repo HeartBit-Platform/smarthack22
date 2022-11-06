@@ -20,26 +20,26 @@ export default function HomePage() {
                             </span>
                         </h1>
                         <div className="field p-5 font-josefin font-bold border-2 border-black w-[16rem]">
-                            Account
+                            Cont
                         </div>
                         <div className="field p-5 font-josefin font-bold border-2 border-black w-[16rem]">
-                            Password
+                            Parola
                         </div>
                         <div className="field p-5 font-josefin font-bold border-2 border-black w-[16rem]">
-                            Security
+                            Securitate
                         </div>
                         <div className="field p-5 font-josefin font-bold border-2 border-black w-[16rem]">
-                            Application
+                            Aplicatie
                         </div>
                         <div className="field p-5 font-josefin font-bold border-2 border-black w-[16rem]">
-                            Notification
+                            Notificări
                         </div>
                     </div>
                 </div>
 
                 <div className="col-span-3 grid grid-rows-3  place-items-center">
                     <div>
-                        <h1 className="font-bold font-xl">Account Settings</h1>
+                        <h1 className="font-bold font-xl">Setări Cont</h1>
                     </div>
                 </div>
             </div>

@@ -4,13 +4,13 @@ import Link from 'next/link';
 
 function Header() {
     return (
-        <div className="shadow-sm bg-[#fff] sticky top-0 z-50 shadow-md">
+        <div className="shadow-sm bg-[#000] sticky top-0 z-50 shadow-md">
             <div className="flex justify-between   ">
                 {/* Stanga */}
                 <div className="relative hidden lg:inline-grid t-5 h-20 w-20 cursor-pointer ml-5">
                     <Link href="/" className="cursor-pointer">
                         <Image
-                            src="/../public/logo-white.png"
+                            src="/../public/logo.png"
                             layout="fill"
                             className="p-3"
                         />

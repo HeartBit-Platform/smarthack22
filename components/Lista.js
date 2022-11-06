@@ -18,7 +18,6 @@ function Lista() {
         setSuggestions(suggestions);
     }, []);
     return (
-        <>
             <div className="grid grid-cols-5">
                 <div className=" col-span-2 bg-white border-[#EDECEC] rounded-sm max-h-[40rem] max-w-full overflow-y-scroll">
                     <ListItems />
@@ -34,6 +33,21 @@ function Lista() {
                         </p>
                     </div>
 
+                    <div>
+                        Ai de făcut o reparație la mașina ta si cauți un service
+                        auto de încredere? Ai ajuns unde trebuie! Lasă toate
+                        grijile pe seama noastră! Echipa noastră de experți te
+                        va ajuta să rezolvi rapid orice problemă auto. Știm că
+                        îți dorești să găsești cea mai bună soluție, să te
+                        bucuri de mașina ta cat mai repede, să achiți prețul
+                        corect și să fii informat cu privire la fiecare pas.
+                        Fiecare client ce ne pășește pragul ne dorim să plece
+                        mulțumit iar tu poți fi unul dintre ei. Dedicăm
+                        fiecărei lucrări atenție si implicare, asigurându-ne că
+                        te vei bucura de mașina ta în siguranță cat mai rapid!
+                        La NUME_SERVICE vei găsi servicii excelente, o echipă de
+                        profesioniști, transparentă, consultanță permanentă si
+                        prețuri avantajoase.
                     <div className="row-span-2">
                         <h1 className="underline block text-2xl font-extrabold">
                             Descriere
@@ -43,11 +57,11 @@ function Lista() {
                             service auto de încredere? Ai ajuns unde trebuie!
                             Lasă toate grijile pe seama noastră! Echipa noastră
                             de experți te va ajuta să rezolvi rapid orice
-                            problemă auto.  Știm că îți dorești să găsești cea
+                            problemă auto. Știm că îți dorești să găsești cea
                             mai bună soluție, să te bucuri de mașina ta cat mai
                             repede, să achiți prețul corect și să fii informat
                             cu privire la fiecare pas. Fiecare client ce ne
-                            pășește pragul ne dorim să plece  mulțumit iar tu
+                            pășește pragul ne dorim să plece mulțumit iar tu
                             poți fi unul dintre ei. Dedicăm fiecărei lucrări
                             atenție si implicare, asigurându-ne că te vei bucura
                             de mașina ta în siguranță cat mai rapid! La
@@ -74,7 +88,8 @@ function Lista() {
                     </div>
                 </div>
             </div>
-        </>
+            </div>
     );
 }
-export default Lista;
+
+export default List;

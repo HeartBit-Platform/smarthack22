@@ -1,7 +1,7 @@
 export default function Head() {
     return (
         <>
-            <title>MecaniX</title>
+            <title>MecanX</title>
         </>
     );
 }

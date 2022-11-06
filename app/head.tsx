@@ -1,13 +1,7 @@
-
-export default function Head(){
-    return(
+export default function Head() {
+    return (
         <>
-            <title>
-                MecaniX
-            </title>
-        
-           
-           
+            <title>MecaniX</title>
         </>
-    )
+    );
 }

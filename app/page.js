@@ -21,7 +21,7 @@ export default function Home() {
                     </div>
 
                     <div>
-                        <img src="/../public/Doodless.png" className="p-3" />
+                        <img src="/../public/mihai.jpeg" className="p-3" />
                     </div>
                 </div>
             </div>

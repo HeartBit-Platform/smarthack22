@@ -2,6 +2,7 @@
 import { faker } from '@faker-js/faker';
 import { useEffect, useState } from 'react';
 import ListItems from './ListItems';
+import Image from 'next/image';
 function Lista() {
     const [suggestions, setSuggestions] = useState([]);
     useEffect(() => {
@@ -23,13 +24,13 @@ function Lista() {
                     <ListItems />
                 </div>
 
-                <div className="grid grid-rows-6 col-span-3 overflow-y-scroll max-h-[40rem] max-w-full overflow-y-scroll p-10">
+                <div className="grid grid-rows-6 col-span-3 max-h-[40rem] max-w-full overflow-y-scroll p-10">
                     <div className="row-span-1">
                         <h1 className="underline block text-2xl font-extrabold">
                             Stunning Mecanic Wheels
                         </h1>
-                        <p className="underline block mt-2 text-[#666060] font-medium">
-                            Website link: https://www.stunningwheels.com/
+                        <p className="underline block mt-0 text-[#666060] font-medium">
+                          Website link: 'https://www.stunningwheels.com/'  
                         </p>
                     </div>
 
@@ -56,13 +57,20 @@ function Lista() {
                         </p>
                     </div>
 
-                    <div className="row-span-3 mt-8">
+                    <div className="row-span-3 mt-28">
                         <h1 className="underline block text-2xl font-extrabold">
                             Location
                         </h1>
                         <p className="block mt-2 text-[#666060] font-medium">
                             <script src={``} async></script>
                         </p>
+                    </div>
+                    <div className="relative hidden p-0 lg:inline-grid mt-0 h-60 w-100 grid-auto-flow:row cursor-pointer ml-5">
+                    <Image
+                            src="/../public/map.png"
+                            layout="fill"
+                            className="p-3"
+                        />
                     </div>
                 </div>
             </div>

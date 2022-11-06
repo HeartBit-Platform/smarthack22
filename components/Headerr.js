@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 function Header() {
     return (
-        <div className="shadow-sm bg-[#000] sticky top-0 z-50 shadow-md">
+        <div className=" bg-[#000] sticky top-0 z-50 shadow-md">
             <div className="flex justify-between   ">
                 {/* Stanga */}
                 <div className="relative hidden lg:inline-grid t-5 h-20 w-20 cursor-pointer ml-5">

@@ -11,7 +11,7 @@ export default function Home() {
                 <div className="grid grid-cols-2 p-20 place-items-center">
                     <div>
                         <h1 className="font-mono font-extrabold  text-5xl">
-                            MecanX
+                            MecaniX
                         </h1>
                         <p className="pt-[5%] font-josefin">
                             Bine ai venit! <br /> MecaniX este platforma unde

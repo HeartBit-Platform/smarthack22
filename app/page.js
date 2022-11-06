@@ -22,9 +22,13 @@ export default function Home() {
                         <pre>Vrei mașini la reparat? Cu MecaniX imediat!</pre>
                     </div>
 
-                    <div>
-                        <img src="/../public/mihai.jpeg" className="p-3" />
-                    </div>
+                    <div className="relative hidden lg:inline-grid mt-0 h-80 w-80 grid-auto-flow:row cursor-pointer ml-20  items-center justify-center">
+                        <Image
+                            src="/../public/Doodles.png"
+                            layout="fill"
+                            className="p-3"
+                        />
+                        </div>
                 </div>
             </div>
 

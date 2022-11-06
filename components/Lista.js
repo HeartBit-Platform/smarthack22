@@ -37,12 +37,12 @@ function Lista() {
                         Ai de făcut o reparație la mașina ta si cauți un service
                         auto de încredere? Ai ajuns unde trebuie! Lasă toate
                         grijile pe seama noastră! Echipa noastră de experți te
-                        va ajuta să rezolvi rapid orice problemă auto.  Știm că
+                        va ajuta să rezolvi rapid orice problemă auto. Știm că
                         îți dorești să găsești cea mai bună soluție, să te
                         bucuri de mașina ta cat mai repede, să achiți prețul
                         corect și să fii informat cu privire la fiecare pas.
                         Fiecare client ce ne pășește pragul ne dorim să plece
-                         mulțumit iar tu poți fi unul dintre ei. Dedicăm
+                        mulțumit iar tu poți fi unul dintre ei. Dedicăm
                         fiecărei lucrări atenție si implicare, asigurându-ne că
                         te vei bucura de mașina ta în siguranță cat mai rapid!
                         La NUME_SERVICE vei găsi servicii excelente, o echipă de

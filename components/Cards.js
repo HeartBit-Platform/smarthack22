@@ -16,7 +16,7 @@ function Cards() {
             <div className="h-full grid justify-items-center">
                 <div className="w-full cards grid grid-cols-2 place-items-center justify-items-center ml-20">
                     {/* Card  1*/}
-                    <Link href="/" className="cursor-pointer">
+                    <Link href="/home" className="cursor-pointer">
                         <div className="m-2 card cursor-pointer shadow-card shadow-2xl w-[16rem] h-[16rem]  py-6 grid grid-rows-3 justify-center items-center card-transition">
                             <div className="skill row-span-2 p-4 grid grid-rows-2 place-items-center">
                                 <UserCircleIcon />

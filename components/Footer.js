@@ -6,13 +6,13 @@ function Footer() {
             <div>
                 <div className="flex justify-center mb-2">
                     <p className="text-[#929CA9]">
-                        Find an issue with this page?{' '}
+                        Ai găsit o problemă cu această pagină?{' '}
                         <a
                             href="https://github.com/HeartBit-Platform/smarthack22/issues"
                             target="_blank"
                         >
                             <span className="text-[#6C63FF]">
-                                Fix it on GitHub
+                                Fixează pe GitHub
                             </span>
                         </a>
                     </p>
@@ -27,7 +27,7 @@ function Footer() {
                 </div>
                 <div className="flex justify-center mb-2">
                     <p className="text-[#929CA9] flex">
-                        Created with{' '}
+                        Creat cu{' '}
                         <span className="mx-1">
                             <svg
                                 width="20"

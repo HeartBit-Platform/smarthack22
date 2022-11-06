@@ -17,7 +17,6 @@ function Lista() {
         setSuggestions(suggestions);
     }, []);
     return (
-        <>
             <div className="grid grid-cols-5">
                 <div className=" col-span-2 bg-white border-[#EDECEC] rounded-sm max-h-[40rem] max-w-full overflow-y-scroll">
                     <ListItems />
@@ -81,7 +80,6 @@ function Lista() {
                     </div>
                 </div>
             </div>
-        </>
     );
 }
 export default Lista;

@@ -10,11 +10,11 @@ const Toolbox = () => {
   const { connectors } = useEditor();
 
   return (
-    <div className="absolute right-0 w-[14%] flex flex-col h-[15%] justify-between flex-1">
-      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-4" ref={(ref) => connectors.create(ref, <TextComponent text ="Test" />)}>
+    <div className="absolute right-0 w-[14%] flex flex-col h-[20%] justify-between flex-1">
+      <button className="bg-angry-baby-blue hover:bg-angry-baby-blue text-white font-bold py-2 px-4 rounded ml-4" ref={(ref) => connectors.create(ref, <TextComponent text ="Test" />)}>
         Text
       </button>
-      <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded ml-4" ref={(ref) => connectors.create(ref,<Element
+      <button className="bg-angry-baby-blue hover:bg-angry-baby-blue text-white font-bold py-2 px-4 rounded ml-4" ref={(ref) => connectors.create(ref,<Element
                                                                                                                             canvas
                                                                                                                             is={Container}
                                                                                                                             height="300px"
@@ -24,7 +24,7 @@ const Toolbox = () => {
         Container
       </button>
       <button
-        className="bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded ml-4" ref={(ref) => connectors.create(ref, <ButtonComponent classes="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded " text = "Button" />)}
+        className="bg-angry-baby-blue hover:bg-angry-baby-blue text-white font-bold py-2 px-4 rounded ml-4" ref={(ref) => connectors.create(ref, <ButtonComponent classes="bg-purple hover:bg-purple text-white font-bold py-2 px-4 rounded " text = "Button" />)}
       >
         Button
       </button>
@@ -34,14 +34,16 @@ const Toolbox = () => {
 
 export default function SiteBuilder(){
   return (
+    <div className="min-h-screen">
     <Editor resolver={{ TextComponent, Container, ButtonComponent }}>
       <Frame>
-        <Element is="div" className=" w-[85%]" canvas>
+        <Element is="div" className=" w-[85%] ml-5" canvas>
           <TextComponent text="Sample" />
         </Element>
       </Frame>
       <Toolbox />
     </Editor>
+    </div>
   );
 }
 

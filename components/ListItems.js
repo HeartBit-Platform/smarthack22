@@ -1,0 +1,91 @@
+import Pagina from '../components/Pagina';
+import { faker } from '@faker-js/faker';
+
+function ListItems() {
+    return (
+        <>
+            <Pagina
+                key={faker.datatype.uuid()}
+                avatar={faker.image.avatar()}
+                username={faker.internet.userName()}
+            />
+            <Pagina
+                key={faker.datatype.uuid()}
+                avatar={faker.image.avatar()}
+                username={faker.internet.userName()}
+            />
+            <Pagina
+                key={faker.datatype.uuid()}
+                avatar={faker.image.avatar()}
+                username={faker.internet.userName()}
+            />
+            <Pagina
+                key={faker.datatype.uuid()}
+                avatar={faker.image.avatar()}
+                username={faker.internet.userName()}
+            />
+            <Pagina
+                key={faker.datatype.uuid()}
+                avatar={faker.image.avatar()}
+                username={faker.internet.userName()}
+            />
+            <Pagina
+                key={faker.datatype.uuid()}
+                avatar={faker.image.avatar()}
+                username={faker.internet.userName()}
+            />
+            <Pagina
+                key={faker.datatype.uuid()}
+                avatar={faker.image.avatar()}
+                username={faker.internet.userName()}
+            />
+            <Pagina
+                key={faker.datatype.uuid()}
+                avatar={faker.image.avatar()}
+                username={faker.internet.userName()}
+            />
+            <Pagina
+                key={faker.datatype.uuid()}
+                avatar={faker.image.avatar()}
+                username={faker.internet.userName()}
+            />
+            <Pagina
+                key={faker.datatype.uuid()}
+                avatar={faker.image.avatar()}
+                username={faker.internet.userName()}
+            />
+            <Pagina
+                key={faker.datatype.uuid()}
+                avatar={faker.image.avatar()}
+                username={faker.internet.userName()}
+            />
+            <Pagina
+                key={faker.datatype.uuid()}
+                avatar={faker.image.avatar()}
+                username={faker.internet.userName()}
+            />
+            <Pagina
+                key={faker.datatype.uuid()}
+                avatar={faker.image.avatar()}
+                username={faker.internet.userName()}
+            />
+            <Pagina
+                key={faker.datatype.uuid()}
+                avatar={faker.image.avatar()}
+                username={faker.internet.userName()}
+            />
+            <Pagina
+                key={faker.datatype.uuid()}
+                avatar={faker.image.avatar()}
+                username={faker.internet.userName()}
+            />
+            <Pagina
+                key={faker.datatype.uuid()}
+                avatar={faker.image.avatar()}
+                username={faker.internet.userName()}
+            />
+        </>
+    );
+}
+
+export default ListItems;

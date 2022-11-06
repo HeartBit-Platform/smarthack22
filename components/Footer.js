@@ -22,7 +22,7 @@ function Footer() {
                 </div>
                 <div className="flex justify-center mt-2">
                     <p className="text-[#929CA9]">
-                        Copyright &copy; 2022 MecanX
+                        Copyright &copy; 2022 MecaniX
                     </p>
                 </div>
                 <div className="flex justify-center mb-2">
@@ -104,7 +104,7 @@ function Footer() {
                                 />
                             </svg>
                         </span>{' '}
-                        by <span className="text-[#6C63FF] mx-1">MecanX</span>
+                        by <span className="text-[#6C63FF] mx-1">MecaniX</span>
                     </p>
                 </div>
                 <div className="flex items-center justify-center">

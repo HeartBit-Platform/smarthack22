@@ -1,6 +1,6 @@
 import Headerr from '../../components/Headerr.js';
 import Lista from '../../components/Lista';
-import image from '../../images/mihai.jpeg';
+import Image from 'next/image';;
 export default function HomePage() {
     return (
         <>

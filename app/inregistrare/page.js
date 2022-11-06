@@ -1,8 +1,8 @@
 export default function inregistrare(){
 return (
         <div className="bg-white"> 
-            <div className="columns-1 w-2/3 bg-white m-auto">
-                <p className="font-bold text-center m-auto p-2">Înregistrare Service Auto</p>
+            <div className="columns-1 w-3/4 bg-white m-auto">
+                <p className="py-5 text-xl font-bold text-center m-auto p-2">Înregistrare Service Auto</p>
                 <form class="w-full max-w-lg m-auto p-10">
 
                 <div class="flex flex-wrap -mx-3 mb-6">
@@ -124,15 +124,122 @@ return (
                 </ul> */}
 
 
+                <div class="flex items-center pl-4 rounded border border-gray-200 dark:border-gray-700">
+                    <input id="bordered-checkbox-1" type="checkbox" value="" name="bordered-checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    </input>
+                    <label for="bordered-checkbox-1" class="py-4 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">Service</label>
+                </div>
+
+                <div class="flex items-center pl-4 rounded border border-gray-200 dark:border-gray-700">
+                    <input id="bordered-checkbox-1" type="checkbox" value="" name="bordered-checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    </input>
+                    <label for="bordered-checkbox-1" class="py-4 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">Spălătorie</label>
+                </div>
+
+                <div class="flex items-center pl-4 rounded border border-gray-200 dark:border-gray-700">
+                    <input id="bordered-checkbox-1" type="checkbox" value="" name="bordered-checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    </input>
+                    <label for="bordered-checkbox-1" class="py-4 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">Polish</label>
+                </div>
+
+                <div class="flex items-center pl-4 rounded border border-gray-200 dark:border-gray-700">
+                    <input id="bordered-checkbox-1" type="checkbox" value="" name="bordered-checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    </input>
+                    <label for="bordered-checkbox-1" class="py-4 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">Schimbare Piese</label>
+                </div>
+
+                <div class="flex items-center pl-4 rounded border border-gray-200 dark:border-gray-700">
+                    <input id="bordered-checkbox-1" type="checkbox" value="" name="bordered-checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    </input>
+                    <label for="bordered-checkbox-1" class="py-4 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">Tinichigerie</label>
+                </div>
+
+                <div class="flex items-center pl-4 rounded border border-gray-200 dark:border-gray-700">
+                    <input id="bordered-checkbox-1" type="checkbox" value="" name="bordered-checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    </input>
+                    <label for="bordered-checkbox-1" class="py-4 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">Soft Tuning</label>
+                </div>
+
+
+                <div class="flex items-center pl-4 rounded border border-gray-200 dark:border-gray-700">
+                    <input id="bordered-checkbox-1" type="checkbox" value="" name="bordered-checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    </input>
+                    <label for="bordered-checkbox-1" class="py-4 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">Bodykit</label>
+                </div>
+
+                
+                <div class="flex items-center pl-4 rounded border border-gray-200 dark:border-gray-700">
+                    <input id="bordered-checkbox-1" type="checkbox" value="" name="bordered-checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    </input>
+                    <label for="bordered-checkbox-1" class="py-4 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">Sistem de evacuare</label>
+                </div>
+
+                
+                <div class="flex items-center pl-4 rounded border border-gray-200 dark:border-gray-700">
+                    <input id="bordered-checkbox-1" type="checkbox" value="" name="bordered-checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    </input>
+                    <label for="bordered-checkbox-1" class="py-4 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">Dezmembrări</label>
+                </div>
+
+                
+                <div class="flex items-center pl-4 rounded border border-gray-200 dark:border-gray-700">
+                    <input id="bordered-checkbox-1" type="checkbox" value="" name="bordered-checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    </input>
+                    <label for="bordered-checkbox-1" class="py-4 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">Service Motociclete</label>
+                </div>
+
+                
+                <div class="flex items-center pl-4 rounded border border-gray-200 dark:border-gray-700">
+                    <input id="bordered-checkbox-1" type="checkbox" value="" name="bordered-checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    </input>
+                    <label for="bordered-checkbox-1" class="py-4 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">Colantare</label>
+                </div>
+
+                
+                <div class="flex items-center pl-4 rounded border border-gray-200 dark:border-gray-700">
+                    <input id="bordered-checkbox-1" type="checkbox" value="" name="bordered-checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    </input>
+                    <label for="bordered-checkbox-1" class="py-4 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">Folii geamuri</label>
+                </div>
+
+                <div class="flex items-center pl-4 rounded border border-gray-200 dark:border-gray-700">
+                    <input id="bordered-checkbox-1" type="checkbox" value="" name="bordered-checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    </input>
+                    <label for="bordered-checkbox-1" class="py-4 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">Retapițare</label>
+                </div>
+
+                <div class="flex items-center pl-4 rounded border border-gray-200 dark:border-gray-700">
+                    <input id="bordered-checkbox-1" type="checkbox" value="" name="bordered-checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    </input>
+                    <label for="bordered-checkbox-1" class="py-4 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">Detailing</label>
+                </div>
+
+                <div class="flex items-center pl-4 rounded border border-gray-200 dark:border-gray-700">
+                    <input id="bordered-checkbox-1" type="checkbox" value="" name="bordered-checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    </input>
+                    <label for="bordered-checkbox-1" class="py-4 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">Vopsit</label>
+                </div>
+
+                <div class="flex items-center pl-4 rounded border border-gray-200 dark:border-gray-700">
+                    <input id="bordered-checkbox-1" type="checkbox" value="" name="bordered-checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    </input>
+                    <label for="bordered-checkbox-1" class="py-4 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">Vulcanizare</label>
+                </div>
+
+                <div class="flex items-center pl-4 rounded border border-gray-200 dark:border-gray-700">
+                    <input id="bordered-checkbox-1" type="checkbox" value="" name="bordered-checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+                    </input>
+                    <label for="bordered-checkbox-1" class="py-4 ml-2 w-full text-sm font-medium text-gray-900 dark:text-gray-300">Diagnoză</label>
+                </div>
 
                 <div class="flex items-center">
                     <input id="link-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
                     </input>
-                    <label for="link-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">I agree with the <a href="#" class="text-blue-600 dark:text-blue-500 hover:underline">terms and conditions</a>.</label>
+                    <label for="link-checkbox" class="py-5 ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Sunt de acord cu <a href="#" class="text-blue-600 dark:text-blue-500 hover:underline">termenii și condițiile</a>.</label>
                 </div>
 
                 <div class="flex items-center justify-between">
-                    <button class="m-auto bg-baby-blue hover:bg-angry-baby-blue text-black font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                    <button class="my-5 m-auto bg-baby-blue hover:bg-angry-baby-blue text-black font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
                     Mergi mai departe
                     </button>
                 </div>

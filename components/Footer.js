@@ -2,17 +2,17 @@ import Link from 'next/link';
 
 function Footer() {
     return (
-        <div className="flex items-center justify-center py-10 bg-[#000000]">
+        <div className="flex items-center justify-center py-10 bg-[#000] font-josefin">
             <div>
                 <div className="flex justify-center mb-2">
                     <p className="text-[#929CA9]">
-                        Find an issue with this page?{' '}
+                        Ai găsit o problemă cu această pagină?{' '}
                         <a
-                            href="https://github.com/Cipppp/pirvuciprian/issues"
+                            href="https://github.com/HeartBit-Platform/smarthack22/issues"
                             target="_blank"
                         >
                             <span className="text-[#6C63FF]">
-                                Fix it on GitHub
+                                Fixează pe GitHub
                             </span>
                         </a>
                     </p>
@@ -22,12 +22,12 @@ function Footer() {
                 </div>
                 <div className="flex justify-center mt-2">
                     <p className="text-[#929CA9]">
-                        Copyright &copy; 2022 MecaniX
+                        Copyright &copy; 2022 MecanX
                     </p>
                 </div>
                 <div className="flex justify-center mb-2">
                     <p className="text-[#929CA9] flex">
-                        Created with{' '}
+                        Creat cu{' '}
                         <span className="mx-1">
                             <svg
                                 width="20"
@@ -104,7 +104,7 @@ function Footer() {
                                 />
                             </svg>
                         </span>{' '}
-                        by <span className="text-[#6C63FF] mx-1">MecaniX</span>
+                        by <span className="text-[#6C63FF] mx-1">MecanX</span>
                     </p>
                 </div>
                 <div className="flex items-center justify-center">
@@ -113,10 +113,10 @@ function Footer() {
                 <div className="flex justify-center my-2">
                     <p className="text-[#0ACF83]">
                         <Link href="/privacy-policy" className="cursor-pointer">
-                            Privacy
+                            Termeni si
                         </Link>{' '}
                         <Link href="/terms" className="cursor-pointer">
-                            Terms
+                            Conditii
                         </Link>
                     </p>
                 </div>
@@ -152,7 +152,10 @@ function Footer() {
                         />
                     </svg>
 
-                    <a href="http://github.com/Cipppp" target="_blank">
+                    <a
+                        href="https://github.com/HeartBit-Platform/"
+                        target="_blank"
+                    >
                         <svg
                             width="25"
                             height="25"
@@ -168,7 +171,7 @@ function Footer() {
                         </svg>
                     </a>
 
-                    <a href="https://twitter.com/Cip41388806" target="_blank">
+                    <a href="https://twitter.com/" target="_blank">
                         <svg
                             width="25"
                             height="25"

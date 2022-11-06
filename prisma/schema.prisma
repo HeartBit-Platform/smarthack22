@@ -9,3 +9,16 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+model Service{
+  id              Int
+  persoanaContact String
+  denumireSRL     String
+  email           String    @unique
+  cui             String    @unique
+  telefonContact  String
+  telefonService  String
+  oras            String
+  adresa          String
+}
+

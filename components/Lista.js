@@ -92,4 +92,4 @@ function Lista() {
     );
 }
 
-export default List;
+export default Lista;

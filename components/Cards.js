@@ -10,23 +10,23 @@ function Cards() {
         <div className="p-10 h-screen flex flex-col w-screen" id="Cards">
             <div className="block overflow-hidden">
                 <h1 className="flex text-4xl font-black justify-center drop-shadow-md">
-                    Choose one option
+                    Alege o optiune
                 </h1>
             </div>
             <div className="h-full grid justify-items-center">
                 <div className="w-full cards grid grid-cols-2 place-items-center justify-items-center ml-20">
                     {/* Card  1*/}
-                    <Link href="/" className="cursor-pointer">
-                        <div className="m-2 card cursor-pointer shadow-card shadow-2xl w-[16rem] h-[16rem]  py-6 grid grid-rows-3 justify-center items-center card-transition">
-                            <div className="skill row-span-2 p-4 grid grid-rows-2 place-items-center">
+                    <Link href="/home" className="cursor-pointer">
+                        <div className="m-2 card cursor-pointer shadow-card shadow-2xl w-[24rem] h-[24rem]  py-6 grid grid-rows-3 justify-center items-center card-transition">
+                            <div className="skill row-span-2 p-10 grid grid-rows-2 place-items-center">
                                 <UserCircleIcon />
                                 <span className="text-center flex justify-center items-center font-extrabold">
-                                    USER
+                                    UTIILIZATOR
                                 </span>
                             </div>
                             <div className="row-span-1 text-center flex justify-center items-center">
                                 <span className="font-mono font-extrabold text-sm">
-                                    View more
+                                    Vizualizează mai mult
                                 </span>
                                 <span className="flex justify-center items-center px-2">
                                     <svg
@@ -47,16 +47,16 @@ function Cards() {
 
                     {/* Card  2*/}
                     <Link href="/business" className="cursor-pointer">
-                        <div className="m-2 card cursor-pointer shadow-card shadow-2xl w-[16rem] h-[16rem] py-6 grid grid-rows-3 justify-center items-center card-transition">
-                            <div className="skill row-span-2 p-4 grid grid-rows-2 place-items-center">
+                        <div className="m-2 card cursor-pointer shadow-card shadow-2xl w-[24rem] h-[24rem] py-6 grid grid-rows-3 justify-center items-center card-transition">
+                            <div className="skill row-span-2 p-10 grid grid-rows-2 place-items-center">
                                 <WrenchScrewdriverIcon />
                                 <span className="text-center flex justify-center items-center font-extrabold">
-                                    MECHANIC
+                                    MECANIC
                                 </span>
                             </div>
                             <div className="row-span-1 text-center flex justify-center items-center">
                                 <span className="font-mono font-extrabold text-sm">
-                                    View more
+                                    Vizualizează mai mult
                                 </span>
                                 <span className="flex justify-center items-center px-2">
                                     <svg

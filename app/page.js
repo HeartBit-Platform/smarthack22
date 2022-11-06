@@ -13,11 +13,13 @@ export default function Home() {
                         <h1 className="font-mono font-extrabold  text-5xl">
                             MecaniX
                         </h1>
-                        <p className="pt-[5%]">
-                            Bine ai venit! MecaniX este platforma unde poți să
-                            îți creezi un site de prezentare pentru service-ul
-                            tău auto.
+                        <p className="pt-[5%] font-josefin">
+                            Bine ai venit! <br /> MecaniX este platforma unde
+                            poți să îți creezi un site de prezentare pentru
+                            service-ul tău auto.
                         </p>
+                        <br />
+                        <pre>Vrei mașini la reparat? Cu MecaniX imediat!</pre>
                     </div>
 
                     <div>
